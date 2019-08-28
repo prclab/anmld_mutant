@@ -1,5 +1,4 @@
-# anmld_mutant
-# ANMLD
+# ANMLD and Mutant Analysis
 ANMLDcode.zip file contains scripts, functions, parameter and input files necessary to run ANM-LD simulations for the case studied in the manuscript submitted. 
 
 The contents of the ANMLDcode.zip file:
@@ -35,3 +34,7 @@ Requirements of the OS and softwares used:
 A sample command to submit a batch script to start an ANM-LD run (in the case of Slurm workload manager):
     
     sbatch submitANMLD.sh
+   
+# Mutant Analysis
+cumulative_angle_deviation.m: In order to to compare virtual torsional angle changes between WT and mutant simulations, we calculate torsional angles of four consecutive residue CAs residing in each conformation of the ANM-LD trajectory for WT and mutants. Then we calculate the cumulative angle deviation from WT for mutants. 
+                                                                   
