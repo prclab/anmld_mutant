@@ -1,7 +1,12 @@
 # ANMLD and Mutant Analysis
+
+# ANMLD
 ANMLDcode.zip file contains scripts, functions, parameter and input files necessary to run ANM-LD simulations for the case studied in the manuscript submitted. 
 
-The contents of the ANMLDcode.zip file:
+Authors:
+Burcu Aykac Fas, Burcin Acar.
+
+The contents of the ANMLDcode.zip file are;
 
 Scripts and called functions:
 - submitANMLD.sh: The batch script file that is submitted to start the ANM-LD run.
@@ -36,5 +41,25 @@ A sample command to submit a batch script to start an ANM-LD run (in the case of
     sbatch submitANMLD.sh
    
 # Mutant Analysis
-cumulative_angle_deviation.m: In order to to compare virtual torsional angle changes between WT and mutant simulations, we calculate torsional angles of four consecutive residue CAs residing in each conformation of the ANM-LD trajectory for WT and mutants. Then we calculate the cumulative angle deviation from WT for mutants. 
-                                                                   
+
+Cumulative Absolute Angle Deviation MATLAB Script
+Script for comparing virtual torsional angles of different ANM-LD trajectories (such as WT versus mutant trajectories). 
+
+Author:
+Burçin Acar
+
+Prerequisite: 
+CircStat toolbox should be downloaded (Reference: P. Berens, CircStat: A Matlab Toolbox for Circular Statistics, Journal of Statistical Software, Volume 31, Issue 10, 2009.) 
+
+Main Script:
+Following parameters should be inserted in the script. 
+
+* Residue number: resno=1144; 
+* Total frame number: fno=100; 
+* Hinge residues forming the angles: ANM1hA=[11 12 78 79 80 81 82 83 207 208 211 228 ...
+    232 233 267 269 270 271 272 273 275 313 314 315 316 317 318 319 ...
+    320 321 323]; 
+
+* Trajectory coordinate files given in following folders WT for reference trajectory and exp for deviated trajectory from this reference
+
+fn2={'experimented/exp','experimented/WT'} 
