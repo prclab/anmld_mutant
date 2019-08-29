@@ -1,6 +1,5 @@
 # ANMLD and Mutant Analysis
 
-# ANMLD
 ANMLDcode.zip file contains scripts, functions, parameter and input files necessary to run ANM-LD simulations for the case studied in the manuscript submitted. 
 
 Authors:
