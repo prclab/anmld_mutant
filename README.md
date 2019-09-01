@@ -3,7 +3,7 @@
 ANMLDcode.zip file contains scripts, functions, parameter and input files necessary to run ANM-LD simulations for the case studied in the manuscript submitted. 
 
 Authors:
-Burcu Aykac Fas, Burcin Acar.
+Burcu Aykac Fas, Burcin Acar
 
 The contents of the ANMLDcode.zip file are;
 
