@@ -32,7 +32,7 @@ Major output files:
 
 Requirements of the OS and softwares used:
 - Linux OS
-- MATLAB R2010a
+- MATLAB
 - AMBER 11 molecular simulations package
 
 A sample command to submit a batch script to start an ANM-LD run (in the case of Slurm workload manager):
