@@ -38,6 +38,7 @@ Requirements of the OS and softwares used:
 A sample command to submit a batch script to start an ANM-LD run (in the case of Slurm workload manager):
     
     sbatch submitANMLD.sh
+
    
 # Mutant Analysis
 
@@ -62,3 +63,7 @@ Following parameters should be inserted in the script.
 * Trajectory coordinate files given in following folders WT for reference trajectory and exp for deviated trajectory from this reference
 
 fn2={'experimented/exp','experimented/WT'} 
+
+
+If you use the code in this repository, please cite:
+Acar, B., Rose, J., Fas, B. A., Ben-Tal, N., Lewinson, O., & Haliloglu, T. (2020). Distinct allosteric networks underlie mechanistic speciation of ABC transporters. Structure, 28(6), 651-663.
