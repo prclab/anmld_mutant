@@ -65,5 +65,6 @@ Following parameters should be inserted in the script.
 fn2={'experimented/exp','experimented/WT'} 
 
 
-If you use the code in this repository, please cite:
+## If you use the code in this repository, please cite:
+
 Acar, B., Rose, J., Fas, B. A., Ben-Tal, N., Lewinson, O., & Haliloglu, T. (2020). Distinct allosteric networks underlie mechanistic speciation of ABC transporters. Structure, 28(6), 651-663.
